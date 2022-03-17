@@ -50,15 +50,15 @@
 
 <!----------welcome----->
 <section class="my-5">
-	<div class="py-5">
+	<div class="py-3">
 		<h2 class="text-center">Welcome to Blog&I</h2>
 	</div>
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 col-md-6 col-12">
-				<img alt="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1516553730-shutterstock_429631015.jpg" class="img-fluid welcomeimg"
-				src="images/imgw.jpg">
+				<img src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1516553730-shutterstock_429631015.jpg" class="img-fluid welcomeimg"
+				alt="images/imgw.jpg">
 			</div>
 			<div class="col-lg-6 col-md-6 col-12">
 				<h2>Your World Of Reflection Awaits</h2>
@@ -85,42 +85,54 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-12">
-				<img alt="https://i.stack.imgur.com/hOIuY.jpg" class="img-fluid pb-4" src="images/s1.jpg">
+			<div class="col-lg-4 col-md-4 col-12 container">
+				<img alt="https://i.stack.imgur.com/hOIuY.jpg" class="img-fluid image" src="images/s1.jpg">
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Dogs</h2>dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a subspecies of the gray wolf (Canis lupus) and is related to foxes and jackals. The dog is one of the two most ubiquitous and most popular domestic animals in the world (the cat is the other). </div>
+			  </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img alt="https://i.stack.imgur.com/zMoo4.jpg" class="img-fluid pb-4" src="images/s2.jpg">
+			<div class="col-lg-4 col-md-4 col-12 container">
+				<img alt="https://i.stack.imgur.com/zMoo4.jpg" class="img-fluid image " src="images/s2.jpg">
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Rabbit</h2>Rabbits are small mammals with fluffy, short tails, whiskers and distinctive long ears. There 29 species around the world, according to Nature by PBS and, while they live in many different environments, they have many things in common.</div>
+			  </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img alt="https://i.stack.imgur.com/capu1.jpg" class="img-fluid pb-4" src="images/s3.jpg">
+			<div class="col-lg-4 col-md-4 col-12 container">
+				<img alt="https://i.stack.imgur.com/capu1.jpg" class="img-fluid image " src="images/s3.jpg">
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Parent Child</h2>A parent-child relationship (PCR) is one that nurtures the physical, emotional, and social development of the child. It's a unique bond that every child and parent experience, enjoy and nurture. The relationship lays the foundation for the child's personality, choices, and overall behavior.</div>
+			  </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img alt="https://i.stack.imgur.com/CJT47.jpg" class="img-fluid pb-4" src="images/s4.jpg">
+
+			<div class="col-lg-4 col-md-4 col-12 container">
+				<img alt="https://i.stack.imgur.com/CJT47.jpg" class="img-fluid image " src="images/s4.jpg">
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Cycling</h2>To be fit and healthy you need to be physically active. Regular physical activity can help protect you from serious diseases such as obesity, heart disease, cancer, mental illness, diabetes and arthritis. Riding your bicycle regularly is one of the best ways to reduce your risk of health problems associated with a sedentary lifestyle.</div>
+			  </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<img alt="https://wallpapercave.com/wp/wp2568276.jpg" class="img-fluid pb-4" src="images/s5.jpg">
+			<div class="col-lg-4 col-md-4 col-12 container">
+				<img alt="https://wallpapercave.com/wp/wp2568276.jpg" class="img-fluid image  " src="images/s5.jpg">
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Geometric art</h2>Geometric art is a phase of Greek art, characterized largely by geometric motifs in vase painting, that flourished towards the end of the Greek Dark Ages, c. 900–700 BC. Its center was in Athens, and from there the style spread among the trading cities of the Aegean.</div>
+			  </div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-12">
+			<div class="col-lg-4 col-md-4 col-12 container">
 					<img id="6img" alt="https://www.cashadvance6online.com/data/archive/img/2374540163.jpeg" 
-					class="img-fluid pb-4"
-					src="images/s6.jpeg" onmouseover="hover(this);" onmouseout="unhover(this);" />
-				</a>
+					class="img-fluid image "
+					src="images/s6.jpeg" />
+				<div class="overlay">
+			    <div class="text">
+			    	<h2>Stars</h2>A star is a luminous ball of gas, mostly hydrogen and helium, held together by its own gravity. Nuclear fusion reactions in its core support the star against gravity and produce photons and heat, as well as small amounts of heavier elements. The Sun is the closest star to Earth.</div>
+			  </div>
 			</div>
 		</div>
 	</div>
 </section>
-
-
-<script type="text/javascript">
-	function hover(element) {
-  element.setAttribute('src', 'https://i.pinimg.com/474x/cd/74/82/cd74820d183b2b1404529b74da7f2e51.jpg');
-	}
-
-	function unhover(element) {
-	  element.setAttribute('src', 'images/s6.jpeg');
-	}
-
-</script>
 
 
 <!----------about----->
